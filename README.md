@@ -1,8 +1,10 @@
-Full example
-============
-
+Disclaimer
+==========
 All data was found in open sources, except $description data. This one was get from NYTimes Article Search API. 
 
+
+Full example
+============
 
 ````javascript
   
