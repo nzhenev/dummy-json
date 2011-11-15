@@ -2,6 +2,7 @@ Full example
 
 All data was found in public domains, except $description data. This one was get from NYTimes Article Search API. 
 
+::
     var init = require('./index');
 
     var rnd = init();
