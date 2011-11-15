@@ -1,8 +1,11 @@
 Full example
+============
 
-All data was found in public domains, except $description data. This one was get from NYTimes Article Search API. 
+All data was found in open sources, except $description data. This one was get from NYTimes Article Search API. 
 
-`
+
+````javascript
+  
   var init = require('./index');
 
   var rnd = init();
@@ -58,4 +61,4 @@ All data was found in public domains, except $description data. This one was get
       andFocusWithJoin: "$tags($int(1, 5)).join(', ')",
     }
   }));
-`
+````
