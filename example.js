@@ -42,6 +42,7 @@ console.log(rnd({
     randomEmail: "$email",
     code: "$code('###-###-###')",
     phone: "$code('+7 (499) ###-##-##')",
+    link: "$"
   },
   content: {
     title: "$title",
@@ -50,6 +51,6 @@ console.log(rnd({
     fullTextFromThreeParagraph: "$description(3)",
     tag: "$tag",
     arrayOfRangomTags: "$tags($int(1, 5))",
-    andFocusWithJoin: "$tags($int(1, 5)).join(', ')",
+    andFocusWithJoin: "$tags($int(1, 2)).join(', ')",
   }
 }));
