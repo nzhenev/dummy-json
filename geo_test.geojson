@@ -1,0 +1,2257 @@
+{
+ "currentVersion": 10.21,
+ "serviceDescription": "Peta RBI Skala 1:10.000, 1:25.000, 1:50.000 dan 1:250.000",
+ "mapName": "Rupa Bumi Indonesia",
+ "description": "",
+ "copyrightText": "Badan Informasi Geospasial",
+ "supportsDynamicLayers": false,
+ "layers": [
+  {
+   "id": 0,
+   "name": "TOPONIM",
+   "parentLayerId": -1,
+   "defaultVisibility": true,
+   "subLayerIds": [
+    1
+   ],
+   "minScale": 0,
+   "maxScale": 0
+  },
+  {
+   "id": 1,
+   "name": "Nama Geografi",
+   "parentLayerId": 0,
+   "defaultVisibility": true,
+   "subLayerIds": [
+    2,
+    4,
+    9,
+    13,
+    16,
+    19
+   ],
+   "minScale": 0,
+   "maxScale": 0
+  },
+  {
+   "id": 2,
+   "name": "Ibukota Provinsi",
+   "parentLayerId": 1,
+   "defaultVisibility": true,
+   "subLayerIds": [
+    3
+   ],
+   "minScale": 0,
+   "maxScale": 0
+  },
+  {
+   "id": 3,
+   "name": "Ibukota Prov 250K",
+   "parentLayerId": 2,
+   "defaultVisibility": true,
+   "subLayerIds": null,
+   "minScale": 15000000,
+   "maxScale": 0
+  },
+  {
+   "id": 4,
+   "name": "Ibukota Kabupaten",
+   "parentLayerId": 1,
+   "defaultVisibility": true,
+   "subLayerIds": [
+    5,
+    6,
+    7,
+    8
+   ],
+   "minScale": 0,
+   "maxScale": 0
+  },
+  {
+   "id": 5,
+   "name": "Ibukota_Kota",
+   "parentLayerId": 4,
+   "defaultVisibility": true,
+   "subLayerIds": null,
+   "minScale": 1000000,
+   "maxScale": 100001
+  },
+  {
+   "id": 6,
+   "name": "Ibukota_Kab",
+   "parentLayerId": 4,
+   "defaultVisibility": true,
+   "subLayerIds": null,
+   "minScale": 1000000,
+   "maxScale": 100001
+  },
+  {
+   "id": 7,
+   "name": "TOPONIMIPT_IBUKOTA_KAB_50K",
+   "parentLayerId": 4,
+   "defaultVisibility": true,
+   "subLayerIds": null,
+   "minScale": 100000,
+   "maxScale": 0
+  },
+  {
+   "id": 8,
+   "name": "TOPONIMIPT_IBUKOTA_KAB_25K",
+   "parentLayerId": 4,
+   "defaultVisibility": true,
+   "subLayerIds": null,
+   "minScale": 100000,
+   "maxScale": 0
+  },
+  {
+   "id": 9,
+   "name": "Ibukota Kecamatan",
+   "parentLayerId": 1,
+   "defaultVisibility": true,
+   "subLayerIds": [
+    10,
+    11,
+    12
+   ],
+   "minScale": 0,
+   "maxScale": 0
+  },
+  {
+   "id": 10,
+   "name": "TOPONIMIPT_IBUKOTA_KEC_25K",
+   "parentLayerId": 9,
+   "defaultVisibility": true,
+   "subLayerIds": null,
+   "minScale": 100000,
+   "maxScale": 0
+  },
+  {
+   "id": 11,
+   "name": "TOPONIMIPT_IBUKOTA_KEC_50K",
+   "parentLayerId": 9,
+   "defaultVisibility": true,
+   "subLayerIds": null,
+   "minScale": 100000,
+   "maxScale": 0
+  },
+  {
+   "id": 12,
+   "name": "Ibukota Kec 250K",
+   "parentLayerId": 9,
+   "defaultVisibility": true,
+   "subLayerIds": null,
+   "minScale": 250000,
+   "maxScale": 100001
+  },
+  {
+   "id": 13,
+   "name": "Desa",
+   "parentLayerId": 1,
+   "defaultVisibility": true,
+   "subLayerIds": [
+    14,
+    15
+   ],
+   "minScale": 0,
+   "maxScale": 0
+  },
+  {
+   "id": 14,
+   "name": "TOPONIMIPT_IBUKOTA_DES_25K",
+   "parentLayerId": 13,
+   "defaultVisibility": true,
+   "subLayerIds": null,
+   "minScale": 100000,
+   "maxScale": 0
+  },
+  {
+   "id": 15,
+   "name": "TOPONIMIPT_IBUKOTA_DES_50K",
+   "parentLayerId": 13,
+   "defaultVisibility": true,
+   "subLayerIds": null,
+   "minScale": 100000,
+   "maxScale": 0
+  },
+  {
+   "id": 16,
+   "name": "Kampung",
+   "parentLayerId": 1,
+   "defaultVisibility": true,
+   "subLayerIds": [
+    17,
+    18
+   ],
+   "minScale": 0,
+   "maxScale": 0
+  },
+  {
+   "id": 17,
+   "name": "TOPONIMIPT_IBUKOTA_KAMPUNG_25K",
+   "parentLayerId": 16,
+   "defaultVisibility": true,
+   "subLayerIds": null,
+   "minScale": 35000,
+   "maxScale": 0
+  },
+  {
+   "id": 18,
+   "name": "TOPONIMIPT_IBUKOTA_KAMPUNG_50K",
+   "parentLayerId": 16,
+   "defaultVisibility": true,
+   "subLayerIds": null,
+   "minScale": 50000,
+   "maxScale": 0
+  },
+  {
+   "id": 19,
+   "name": "Nama Pulau",
+   "parentLayerId": 1,
+   "defaultVisibility": true,
+   "subLayerIds": [
+    20,
+    21,
+    22
+   ],
+   "minScale": 0,
+   "maxScale": 0
+  },
+  {
+   "id": 20,
+   "name": "TOPONIMIPT_NAMAPULAU_25K",
+   "parentLayerId": 19,
+   "defaultVisibility": true,
+   "subLayerIds": null,
+   "minScale": 100000,
+   "maxScale": 0
+  },
+  {
+   "id": 21,
+   "name": "TOPONIMIPT_NAMAPULAU_50K",
+   "parentLayerId": 19,
+   "defaultVisibility": true,
+   "subLayerIds": null,
+   "minScale": 100000,
+   "maxScale": 0
+  },
+  {
+   "id": 22,
+   "name": "Nama Pulau 250K",
+   "parentLayerId": 19,
+   "defaultVisibility": true,
+   "subLayerIds": null,
+   "minScale": 250000,
+   "maxScale": 100001
+  },
+  {
+   "id": 23,
+   "name": "UTILITAS",
+   "parentLayerId": -1,
+   "defaultVisibility": true,
+   "subLayerIds": [
+    24,
+    27,
+    30,
+    31,
+    32,
+    35,
+    36
+   ],
+   "minScale": 0,
+   "maxScale": 0
+  },
+  {
+   "id": 24,
+   "name": "Depo Bahan Bakar Minyak",
+   "parentLayerId": 23,
+   "defaultVisibility": true,
+   "subLayerIds": [
+    25,
+    26
+   ],
+   "minScale": 0,
+   "maxScale": 0
+  },
+  {
+   "id": 25,
+   "name": "Depo Bahan Bakar Minyak 25K",
+   "parentLayerId": 24,
+   "defaultVisibility": true,
+   "subLayerIds": null,
+   "minScale": 25000,
+   "maxScale": 0
+  },
+  {
+   "id": 26,
+   "name": "Depo Bahan Bakar Minyak 50K",
+   "parentLayerId": 24,
+   "defaultVisibility": true,
+   "subLayerIds": null,
+   "minScale": 50000,
+   "maxScale": 0
+  },
+  {
+   "id": 27,
+   "name": "Pembangkit Listrik",
+   "parentLayerId": 23,
+   "defaultVisibility": true,
+   "subLayerIds": [
+    28,
+    29
+   ],
+   "minScale": 0,
+   "maxScale": 0
+  },
+  {
+   "id": 28,
+   "name": "Pembangkit Listrik 25K",
+   "parentLayerId": 27,
+   "defaultVisibility": true,
+   "subLayerIds": null,
+   "minScale": 25000,
+   "maxScale": 0
+  },
+  {
+   "id": 29,
+   "name": "Pembangkit Listrik 50K",
+   "parentLayerId": 27,
+   "defaultVisibility": true,
+   "subLayerIds": null,
+   "minScale": 50000,
+   "maxScale": 0
+  },
+  {
+   "id": 30,
+   "name": "Kantor Perusahaan Air Minum",
+   "parentLayerId": 23,
+   "defaultVisibility": true,
+   "subLayerIds": null,
+   "minScale": 50000,
+   "maxScale": 0
+  },
+  {
+   "id": 31,
+   "name": "Kantor PLN",
+   "parentLayerId": 23,
+   "defaultVisibility": true,
+   "subLayerIds": null,
+   "minScale": 50000,
+   "maxScale": 0
+  },
+  {
+   "id": 32,
+   "name": "Kantor Pos",
+   "parentLayerId": 23,
+   "defaultVisibility": true,
+   "subLayerIds": [
+    33,
+    34
+   ],
+   "minScale": 0,
+   "maxScale": 0
+  },
+  {
+   "id": 33,
+   "name": "Kantor Pos 10K",
+   "parentLayerId": 32,
+   "defaultVisibility": true,
+   "subLayerIds": null,
+   "minScale": 25000,
+   "maxScale": 0
+  },
+  {
+   "id": 34,
+   "name": "Kantor Pos 50K",
+   "parentLayerId": 32,
+   "defaultVisibility": true,
+   "subLayerIds": null,
+   "minScale": 50000,
+   "maxScale": 0
+  },
+  {
+   "id": 35,
+   "name": "Kantor Telepon",
+   "parentLayerId": 23,
+   "defaultVisibility": true,
+   "subLayerIds": null,
+   "minScale": 50000,
+   "maxScale": 0
+  },
+  {
+   "id": 36,
+   "name": "Menara Telepon",
+   "parentLayerId": 23,
+   "defaultVisibility": true,
+   "subLayerIds": null,
+   "minScale": 50000,
+   "maxScale": 0
+  },
+  {
+   "id": 37,
+   "name": "TEMPAT MENARIK",
+   "parentLayerId": -1,
+   "defaultVisibility": true,
+   "subLayerIds": [
+    38,
+    41,
+    43,
+    46,
+    49,
+    52,
+    56,
+    59,
+    62,
+    63
+   ],
+   "minScale": 0,
+   "maxScale": 0
+  },
+  {
+   "id": 38,
+   "name": "Bangunan Budaya",
+   "parentLayerId": 37,
+   "defaultVisibility": true,
+   "subLayerIds": [
+    39,
+    40
+   ],
+   "minScale": 0,
+   "maxScale": 0
+  },
+  {
+   "id": 39,
+   "name": "Bangunan Budaya 25K",
+   "parentLayerId": 38,
+   "defaultVisibility": true,
+   "subLayerIds": null,
+   "minScale": 25000,
+   "maxScale": 0
+  },
+  {
+   "id": 40,
+   "name": "Bangunan Budaya 50K",
+   "parentLayerId": 38,
+   "defaultVisibility": true,
+   "subLayerIds": null,
+   "minScale": 50000,
+   "maxScale": 0
+  },
+  {
+   "id": 41,
+   "name": "Situs cagar budaya",
+   "parentLayerId": 37,
+   "defaultVisibility": true,
+   "subLayerIds": [
+    42
+   ],
+   "minScale": 0,
+   "maxScale": 0
+  },
+  {
+   "id": 42,
+   "name": "Situs Cagar Budaya 50k",
+   "parentLayerId": 41,
+   "defaultVisibility": true,
+   "subLayerIds": null,
+   "minScale": 25000,
+   "maxScale": 0
+  },
+  {
+   "id": 43,
+   "name": "Lokasi Fasilitas Kesehatan",
+   "parentLayerId": 37,
+   "defaultVisibility": true,
+   "subLayerIds": [
+    44,
+    45
+   ],
+   "minScale": 0,
+   "maxScale": 0
+  },
+  {
+   "id": 44,
+   "name": "Fasilitas Kesehatan 25K",
+   "parentLayerId": 43,
+   "defaultVisibility": true,
+   "subLayerIds": null,
+   "minScale": 25000,
+   "maxScale": 0
+  },
+  {
+   "id": 45,
+   "name": "Fasilitas Kesehatan 50K",
+   "parentLayerId": 43,
+   "defaultVisibility": true,
+   "subLayerIds": null,
+   "minScale": 50000,
+   "maxScale": 0
+  },
+  {
+   "id": 46,
+   "name": "Makam",
+   "parentLayerId": 37,
+   "defaultVisibility": true,
+   "subLayerIds": [
+    47,
+    48
+   ],
+   "minScale": 0,
+   "maxScale": 0
+  },
+  {
+   "id": 47,
+   "name": "Makam 50K",
+   "parentLayerId": 46,
+   "defaultVisibility": true,
+   "subLayerIds": null,
+   "minScale": 50000,
+   "maxScale": 0
+  },
+  {
+   "id": 48,
+   "name": "Makam 25K",
+   "parentLayerId": 46,
+   "defaultVisibility": true,
+   "subLayerIds": null,
+   "minScale": 25000,
+   "maxScale": 0
+  },
+  {
+   "id": 49,
+   "name": "Bangunan Usaha",
+   "parentLayerId": 37,
+   "defaultVisibility": true,
+   "subLayerIds": [
+    50,
+    51
+   ],
+   "minScale": 0,
+   "maxScale": 0
+  },
+  {
+   "id": 50,
+   "name": "Bangunan Usaha 25K",
+   "parentLayerId": 49,
+   "defaultVisibility": true,
+   "subLayerIds": null,
+   "minScale": 25000,
+   "maxScale": 0
+  },
+  {
+   "id": 51,
+   "name": "Bangunan Usaha 50K",
+   "parentLayerId": 49,
+   "defaultVisibility": true,
+   "subLayerIds": null,
+   "minScale": 50000,
+   "maxScale": 0
+  },
+  {
+   "id": 52,
+   "name": "Bangunan Pemerintahan",
+   "parentLayerId": 37,
+   "defaultVisibility": true,
+   "subLayerIds": [
+    53,
+    54,
+    55
+   ],
+   "minScale": 0,
+   "maxScale": 0
+  },
+  {
+   "id": 53,
+   "name": "Bangunan Pemerintahan 25K",
+   "parentLayerId": 52,
+   "defaultVisibility": true,
+   "subLayerIds": null,
+   "minScale": 50000,
+   "maxScale": 0
+  },
+  {
+   "id": 54,
+   "name": "Bangunan Pemerintahan 50K",
+   "parentLayerId": 52,
+   "defaultVisibility": true,
+   "subLayerIds": null,
+   "minScale": 50000,
+   "maxScale": 0
+  },
+  {
+   "id": 55,
+   "name": "Bangunan Pemerintahan",
+   "parentLayerId": 52,
+   "defaultVisibility": true,
+   "subLayerIds": null,
+   "minScale": 250000,
+   "maxScale": 50000
+  },
+  {
+   "id": 56,
+   "name": "Bangunan Pendidikan",
+   "parentLayerId": 37,
+   "defaultVisibility": true,
+   "subLayerIds": [
+    57,
+    58
+   ],
+   "minScale": 0,
+   "maxScale": 0
+  },
+  {
+   "id": 57,
+   "name": "Bangunan Pendidikan 25K",
+   "parentLayerId": 56,
+   "defaultVisibility": true,
+   "subLayerIds": null,
+   "minScale": 25000,
+   "maxScale": 0
+  },
+  {
+   "id": 58,
+   "name": "Bangunan Pendidikan 50K",
+   "parentLayerId": 56,
+   "defaultVisibility": true,
+   "subLayerIds": null,
+   "minScale": 50000,
+   "maxScale": 0
+  },
+  {
+   "id": 59,
+   "name": "Bangunan Peribadatan",
+   "parentLayerId": 37,
+   "defaultVisibility": true,
+   "subLayerIds": [
+    60,
+    61
+   ],
+   "minScale": 0,
+   "maxScale": 0
+  },
+  {
+   "id": 60,
+   "name": "Bangunan Peribadatan 25K",
+   "parentLayerId": 59,
+   "defaultVisibility": true,
+   "subLayerIds": null,
+   "minScale": 25000,
+   "maxScale": 0
+  },
+  {
+   "id": 61,
+   "name": "Bangunan Peribadatan 50K",
+   "parentLayerId": 59,
+   "defaultVisibility": true,
+   "subLayerIds": null,
+   "minScale": 50000,
+   "maxScale": 0
+  },
+  {
+   "id": 62,
+   "name": "Lokasi Taman Wisata",
+   "parentLayerId": 37,
+   "defaultVisibility": true,
+   "subLayerIds": null,
+   "minScale": 25000,
+   "maxScale": 0
+  },
+  {
+   "id": 63,
+   "name": "Bangunan Tempat Tinggal",
+   "parentLayerId": 37,
+   "defaultVisibility": true,
+   "subLayerIds": [
+    64,
+    65
+   ],
+   "minScale": 0,
+   "maxScale": 0
+  },
+  {
+   "id": 64,
+   "name": "Bangunan Tempat Tinggal 50K",
+   "parentLayerId": 63,
+   "defaultVisibility": true,
+   "subLayerIds": null,
+   "minScale": 100000,
+   "maxScale": 0
+  },
+  {
+   "id": 65,
+   "name": "Bangunan Tempat Tinggal 250K",
+   "parentLayerId": 63,
+   "defaultVisibility": true,
+   "subLayerIds": null,
+   "minScale": 250000,
+   "maxScale": 100001
+  },
+  {
+   "id": 66,
+   "name": "BATAS WILAYAH",
+   "parentLayerId": -1,
+   "defaultVisibility": true,
+   "subLayerIds": [
+    67,
+    68,
+    69,
+    70,
+    71,
+    72,
+    73,
+    74,
+    75,
+    79
+   ],
+   "minScale": 0,
+   "maxScale": 0
+  },
+  {
+   "id": 67,
+   "name": "GarisPantai",
+   "parentLayerId": 66,
+   "defaultVisibility": true,
+   "subLayerIds": null,
+   "minScale": 0,
+   "maxScale": 0
+  },
+  {
+   "id": 68,
+   "name": "Fasilitas Keamanan",
+   "parentLayerId": 66,
+   "defaultVisibility": true,
+   "subLayerIds": null,
+   "minScale": 25000,
+   "maxScale": 0
+  },
+  {
+   "id": 69,
+   "name": "Pilar Batas Administrasi",
+   "parentLayerId": 66,
+   "defaultVisibility": true,
+   "subLayerIds": null,
+   "minScale": 50000,
+   "maxScale": 0
+  },
+  {
+   "id": 70,
+   "name": "Wilayah Administrasi Desa",
+   "parentLayerId": 66,
+   "defaultVisibility": true,
+   "subLayerIds": null,
+   "minScale": 50000,
+   "maxScale": 0
+  },
+  {
+   "id": 71,
+   "name": "Wilayah Administrasi Kecamatan",
+   "parentLayerId": 66,
+   "defaultVisibility": true,
+   "subLayerIds": null,
+   "minScale": 250000,
+   "maxScale": 100000
+  },
+  {
+   "id": 72,
+   "name": "Batas Wilayah Administrasi Kecamatan",
+   "parentLayerId": 66,
+   "defaultVisibility": true,
+   "subLayerIds": null,
+   "minScale": 500000,
+   "maxScale": 250001
+  },
+  {
+   "id": 73,
+   "name": "Batas Wilayah Administrasi Kabupaten",
+   "parentLayerId": 66,
+   "defaultVisibility": true,
+   "subLayerIds": null,
+   "minScale": 1000000,
+   "maxScale": 250000
+  },
+  {
+   "id": 74,
+   "name": "Batas Wilayah Administrasi Provinsi",
+   "parentLayerId": 66,
+   "defaultVisibility": true,
+   "subLayerIds": null,
+   "minScale": 5000000,
+   "maxScale": 0
+  },
+  {
+   "id": 75,
+   "name": "Batas Wilayah Negara",
+   "parentLayerId": 66,
+   "defaultVisibility": true,
+   "subLayerIds": [
+    76,
+    77,
+    78
+   ],
+   "minScale": 0,
+   "maxScale": 0
+  },
+  {
+   "id": 76,
+   "name": "BatasDarat_RI_PNG",
+   "parentLayerId": 75,
+   "defaultVisibility": true,
+   "subLayerIds": null,
+   "minScale": 0,
+   "maxScale": 0
+  },
+  {
+   "id": 77,
+   "name": "BatasDarat_RI_RDTL",
+   "parentLayerId": 75,
+   "defaultVisibility": true,
+   "subLayerIds": null,
+   "minScale": 0,
+   "maxScale": 0
+  },
+  {
+   "id": 78,
+   "name": "BatasDarat_RIMalaysia",
+   "parentLayerId": 75,
+   "defaultVisibility": true,
+   "subLayerIds": null,
+   "minScale": 0,
+   "maxScale": 0
+  },
+  {
+   "id": 79,
+   "name": "NegaraTetangga",
+   "parentLayerId": 66,
+   "defaultVisibility": true,
+   "subLayerIds": null,
+   "minScale": 0,
+   "maxScale": 0
+  },
+  {
+   "id": 80,
+   "name": "TRANSPORTASI",
+   "parentLayerId": -1,
+   "defaultVisibility": true,
+   "subLayerIds": [
+    81,
+    88,
+    91,
+    92,
+    95,
+    98,
+    101,
+    104,
+    107
+   ],
+   "minScale": 0,
+   "maxScale": 0
+  },
+  {
+   "id": 81,
+   "name": "Jalan",
+   "parentLayerId": 80,
+   "defaultVisibility": true,
+   "subLayerIds": [
+    82,
+    83,
+    84,
+    85,
+    86,
+    87
+   ],
+   "minScale": 0,
+   "maxScale": 0
+  },
+  {
+   "id": 82,
+   "name": "Ruas Jalan Utama 250k",
+   "parentLayerId": 81,
+   "defaultVisibility": true,
+   "subLayerIds": null,
+   "minScale": 0,
+   "maxScale": 500000
+  },
+  {
+   "id": 83,
+   "name": "Ruas Jalan 250k",
+   "parentLayerId": 81,
+   "defaultVisibility": true,
+   "subLayerIds": null,
+   "minScale": 500000,
+   "maxScale": 100000
+  },
+  {
+   "id": 84,
+   "name": "Ruas Jalan 50K",
+   "parentLayerId": 81,
+   "defaultVisibility": true,
+   "subLayerIds": null,
+   "minScale": 99999,
+   "maxScale": 25000
+  },
+  {
+   "id": 85,
+   "name": "Ruas Jalan 50K",
+   "parentLayerId": 81,
+   "defaultVisibility": true,
+   "subLayerIds": null,
+   "minScale": 50000,
+   "maxScale": 25000
+  },
+  {
+   "id": 86,
+   "name": "Ruas Jalan 25K",
+   "parentLayerId": 81,
+   "defaultVisibility": true,
+   "subLayerIds": null,
+   "minScale": 24999,
+   "maxScale": 0
+  },
+  {
+   "id": 87,
+   "name": "Ruas Jalan 25K",
+   "parentLayerId": 81,
+   "defaultVisibility": true,
+   "subLayerIds": null,
+   "minScale": 24999,
+   "maxScale": 0
+  },
+  {
+   "id": 88,
+   "name": "Bandara",
+   "parentLayerId": 80,
+   "defaultVisibility": true,
+   "subLayerIds": [
+    89,
+    90
+   ],
+   "minScale": 0,
+   "maxScale": 0
+  },
+  {
+   "id": 89,
+   "name": "Bandara",
+   "parentLayerId": 88,
+   "defaultVisibility": true,
+   "subLayerIds": null,
+   "minScale": 50000,
+   "maxScale": 0
+  },
+  {
+   "id": 90,
+   "name": "Bandara 250k",
+   "parentLayerId": 88,
+   "defaultVisibility": true,
+   "subLayerIds": null,
+   "minScale": 250000,
+   "maxScale": 50000
+  },
+  {
+   "id": 91,
+   "name": "Tiang dan Pelampung Navigasi",
+   "parentLayerId": 80,
+   "defaultVisibility": true,
+   "subLayerIds": null,
+   "minScale": 50000,
+   "maxScale": 0
+  },
+  {
+   "id": 92,
+   "name": "Dermaga",
+   "parentLayerId": 80,
+   "defaultVisibility": true,
+   "subLayerIds": [
+    93,
+    94
+   ],
+   "minScale": 0,
+   "maxScale": 0
+  },
+  {
+   "id": 93,
+   "name": "Dermaga",
+   "parentLayerId": 92,
+   "defaultVisibility": true,
+   "subLayerIds": null,
+   "minScale": 50000,
+   "maxScale": 0
+  },
+  {
+   "id": 94,
+   "name": "Dermaga 250k",
+   "parentLayerId": 92,
+   "defaultVisibility": true,
+   "subLayerIds": null,
+   "minScale": 250000,
+   "maxScale": 50000
+  },
+  {
+   "id": 95,
+   "name": "Jembatan",
+   "parentLayerId": 80,
+   "defaultVisibility": true,
+   "subLayerIds": [
+    96,
+    97
+   ],
+   "minScale": 0,
+   "maxScale": 0
+  },
+  {
+   "id": 96,
+   "name": "Jembatan 25K",
+   "parentLayerId": 95,
+   "defaultVisibility": true,
+   "subLayerIds": null,
+   "minScale": 24000,
+   "maxScale": 0
+  },
+  {
+   "id": 97,
+   "name": "Jembatan 50K",
+   "parentLayerId": 95,
+   "defaultVisibility": true,
+   "subLayerIds": null,
+   "minScale": 50000,
+   "maxScale": 0
+  },
+  {
+   "id": 98,
+   "name": "Pelabuhan",
+   "parentLayerId": 80,
+   "defaultVisibility": true,
+   "subLayerIds": [
+    99,
+    100
+   ],
+   "minScale": 0,
+   "maxScale": 0
+  },
+  {
+   "id": 99,
+   "name": "Pelabuhan 25K",
+   "parentLayerId": 98,
+   "defaultVisibility": true,
+   "subLayerIds": null,
+   "minScale": 100000,
+   "maxScale": 0
+  },
+  {
+   "id": 100,
+   "name": "Pelabuhan 50K",
+   "parentLayerId": 98,
+   "defaultVisibility": true,
+   "subLayerIds": null,
+   "minScale": 100000,
+   "maxScale": 0
+  },
+  {
+   "id": 101,
+   "name": "Terminal",
+   "parentLayerId": 80,
+   "defaultVisibility": true,
+   "subLayerIds": [
+    102,
+    103
+   ],
+   "minScale": 0,
+   "maxScale": 0
+  },
+  {
+   "id": 102,
+   "name": "Terminal 25K",
+   "parentLayerId": 101,
+   "defaultVisibility": true,
+   "subLayerIds": null,
+   "minScale": 24000,
+   "maxScale": 0
+  },
+  {
+   "id": 103,
+   "name": "Terminal Luar Jawa",
+   "parentLayerId": 101,
+   "defaultVisibility": true,
+   "subLayerIds": null,
+   "minScale": 25000,
+   "maxScale": 0
+  },
+  {
+   "id": 104,
+   "name": "Pelabuhan",
+   "parentLayerId": 80,
+   "defaultVisibility": true,
+   "subLayerIds": [
+    105,
+    106
+   ],
+   "minScale": 0,
+   "maxScale": 0
+  },
+  {
+   "id": 105,
+   "name": "Pelabuhan 25K",
+   "parentLayerId": 104,
+   "defaultVisibility": true,
+   "subLayerIds": null,
+   "minScale": 75000,
+   "maxScale": 0
+  },
+  {
+   "id": 106,
+   "name": "Pelabuhan 50K",
+   "parentLayerId": 104,
+   "defaultVisibility": true,
+   "subLayerIds": null,
+   "minScale": 100000,
+   "maxScale": 0
+  },
+  {
+   "id": 107,
+   "name": "Landas Pacu",
+   "parentLayerId": 80,
+   "defaultVisibility": true,
+   "subLayerIds": [
+    108,
+    109,
+    110
+   ],
+   "minScale": 0,
+   "maxScale": 0
+  },
+  {
+   "id": 108,
+   "name": "Landas Pacu 10K",
+   "parentLayerId": 107,
+   "defaultVisibility": true,
+   "subLayerIds": null,
+   "minScale": 0,
+   "maxScale": 0
+  },
+  {
+   "id": 109,
+   "name": "Landas Pacu 25K",
+   "parentLayerId": 107,
+   "defaultVisibility": true,
+   "subLayerIds": null,
+   "minScale": 75000,
+   "maxScale": 0
+  },
+  {
+   "id": 110,
+   "name": "Landas Pacu 50K",
+   "parentLayerId": 107,
+   "defaultVisibility": true,
+   "subLayerIds": null,
+   "minScale": 100000,
+   "maxScale": 0
+  },
+  {
+   "id": 111,
+   "name": "REFERENSI SPASIAL",
+   "parentLayerId": -1,
+   "defaultVisibility": true,
+   "subLayerIds": [
+    112
+   ],
+   "minScale": 0,
+   "maxScale": 0
+  },
+  {
+   "id": 112,
+   "name": "Titik Kontrol Tanah",
+   "parentLayerId": 111,
+   "defaultVisibility": true,
+   "subLayerIds": null,
+   "minScale": 25000,
+   "maxScale": 0
+  },
+  {
+   "id": 113,
+   "name": "HIPSOGRAFI",
+   "parentLayerId": -1,
+   "defaultVisibility": true,
+   "subLayerIds": [
+    114,
+    115,
+    116,
+    117,
+    118,
+    119,
+    120
+   ],
+   "minScale": 0,
+   "maxScale": 0
+  },
+  {
+   "id": 114,
+   "name": "Gunung Berapi Aktif",
+   "parentLayerId": 113,
+   "defaultVisibility": true,
+   "subLayerIds": null,
+   "minScale": 100000,
+   "maxScale": 0
+  },
+  {
+   "id": 115,
+   "name": "Gunung Berapi Tidak Aktif",
+   "parentLayerId": 113,
+   "defaultVisibility": true,
+   "subLayerIds": null,
+   "minScale": 100000,
+   "maxScale": 0
+  },
+  {
+   "id": 116,
+   "name": "Kontur 50K",
+   "parentLayerId": 113,
+   "defaultVisibility": true,
+   "subLayerIds": null,
+   "minScale": 35000,
+   "maxScale": 0
+  },
+  {
+   "id": 117,
+   "name": "Kontur 25K",
+   "parentLayerId": 113,
+   "defaultVisibility": true,
+   "subLayerIds": null,
+   "minScale": 35000,
+   "maxScale": 0
+  },
+  {
+   "id": 118,
+   "name": "Garis Kontur 250K",
+   "parentLayerId": 113,
+   "defaultVisibility": true,
+   "subLayerIds": null,
+   "minScale": 250000,
+   "maxScale": 35001
+  },
+  {
+   "id": 119,
+   "name": "Spot Height 50K",
+   "parentLayerId": 113,
+   "defaultVisibility": true,
+   "subLayerIds": null,
+   "minScale": 50000,
+   "maxScale": 0
+  },
+  {
+   "id": 120,
+   "name": "Spot Height 250K",
+   "parentLayerId": 113,
+   "defaultVisibility": true,
+   "subLayerIds": null,
+   "minScale": 250000,
+   "maxScale": 50000
+  },
+  {
+   "id": 121,
+   "name": "HIDROGRAFI",
+   "parentLayerId": -1,
+   "defaultVisibility": true,
+   "subLayerIds": [
+    122,
+    124,
+    132,
+    136,
+    140,
+    145,
+    150,
+    155,
+    160
+   ],
+   "minScale": 0,
+   "maxScale": 0
+  },
+  {
+   "id": 122,
+   "name": "Pasir",
+   "parentLayerId": 121,
+   "defaultVisibility": true,
+   "subLayerIds": [
+    123
+   ],
+   "minScale": 0,
+   "maxScale": 0
+  },
+  {
+   "id": 123,
+   "name": "Pasir Darat_25K",
+   "parentLayerId": 122,
+   "defaultVisibility": true,
+   "subLayerIds": null,
+   "minScale": 25000,
+   "maxScale": 0
+  },
+  {
+   "id": 124,
+   "name": "Sungai",
+   "parentLayerId": 121,
+   "defaultVisibility": true,
+   "subLayerIds": [
+    125,
+    126,
+    127,
+    128,
+    129,
+    130,
+    131
+   ],
+   "minScale": 0,
+   "maxScale": 0
+  },
+  {
+   "id": 125,
+   "name": "Sungai Line 25K",
+   "parentLayerId": 124,
+   "defaultVisibility": true,
+   "subLayerIds": null,
+   "minScale": 24999,
+   "maxScale": 0
+  },
+  {
+   "id": 126,
+   "name": "Sungai Line 50K",
+   "parentLayerId": 124,
+   "defaultVisibility": true,
+   "subLayerIds": null,
+   "minScale": 99999,
+   "maxScale": 25000
+  },
+  {
+   "id": 127,
+   "name": "Sungai Line 250K",
+   "parentLayerId": 124,
+   "defaultVisibility": true,
+   "subLayerIds": null,
+   "minScale": 1000000,
+   "maxScale": 100000
+  },
+  {
+   "id": 128,
+   "name": "Sungai Poligon 10K",
+   "parentLayerId": 124,
+   "defaultVisibility": true,
+   "subLayerIds": null,
+   "minScale": 99999,
+   "maxScale": 0
+  },
+  {
+   "id": 129,
+   "name": "Sungai Poligon 25K",
+   "parentLayerId": 124,
+   "defaultVisibility": true,
+   "subLayerIds": null,
+   "minScale": 99999,
+   "maxScale": 499999
+  },
+  {
+   "id": 130,
+   "name": "Sungai Poligon 50K",
+   "parentLayerId": 124,
+   "defaultVisibility": true,
+   "subLayerIds": null,
+   "minScale": 499999,
+   "maxScale": 100000
+  },
+  {
+   "id": 131,
+   "name": "Sungai Poligon 250K",
+   "parentLayerId": 124,
+   "defaultVisibility": true,
+   "subLayerIds": null,
+   "minScale": 0,
+   "maxScale": 0
+  },
+  {
+   "id": 132,
+   "name": "Irigasi",
+   "parentLayerId": 121,
+   "defaultVisibility": true,
+   "subLayerIds": [
+    133,
+    134,
+    135
+   ],
+   "minScale": 0,
+   "maxScale": 0
+  },
+  {
+   "id": 133,
+   "name": "Irigasi 25K",
+   "parentLayerId": 132,
+   "defaultVisibility": true,
+   "subLayerIds": null,
+   "minScale": 24999,
+   "maxScale": 0
+  },
+  {
+   "id": 134,
+   "name": "Irigasi 50K",
+   "parentLayerId": 132,
+   "defaultVisibility": true,
+   "subLayerIds": null,
+   "minScale": 99999,
+   "maxScale": 25000
+  },
+  {
+   "id": 135,
+   "name": "Irigasi 250K",
+   "parentLayerId": 132,
+   "defaultVisibility": true,
+   "subLayerIds": null,
+   "minScale": 0,
+   "maxScale": 100000
+  },
+  {
+   "id": 136,
+   "name": "Beting",
+   "parentLayerId": 121,
+   "defaultVisibility": true,
+   "subLayerIds": [
+    137,
+    138,
+    139
+   ],
+   "minScale": 0,
+   "maxScale": 0
+  },
+  {
+   "id": 137,
+   "name": "Beting 25K",
+   "parentLayerId": 136,
+   "defaultVisibility": true,
+   "subLayerIds": null,
+   "minScale": 24999,
+   "maxScale": 0
+  },
+  {
+   "id": 138,
+   "name": "Beting 50K",
+   "parentLayerId": 136,
+   "defaultVisibility": true,
+   "subLayerIds": null,
+   "minScale": 99999,
+   "maxScale": 25000
+  },
+  {
+   "id": 139,
+   "name": "Beting 250K",
+   "parentLayerId": 136,
+   "defaultVisibility": true,
+   "subLayerIds": null,
+   "minScale": 0,
+   "maxScale": 100000
+  },
+  {
+   "id": 140,
+   "name": "Danau",
+   "parentLayerId": 121,
+   "defaultVisibility": true,
+   "subLayerIds": [
+    141,
+    142,
+    143,
+    144
+   ],
+   "minScale": 0,
+   "maxScale": 0
+  },
+  {
+   "id": 141,
+   "name": "Danau Situ 10K",
+   "parentLayerId": 140,
+   "defaultVisibility": true,
+   "subLayerIds": null,
+   "minScale": 10000,
+   "maxScale": 0
+  },
+  {
+   "id": 142,
+   "name": "Danau Situ 25K",
+   "parentLayerId": 140,
+   "defaultVisibility": true,
+   "subLayerIds": null,
+   "minScale": 24999,
+   "maxScale": 0
+  },
+  {
+   "id": 143,
+   "name": "Danau Situ 50K",
+   "parentLayerId": 140,
+   "defaultVisibility": true,
+   "subLayerIds": null,
+   "minScale": 99999,
+   "maxScale": 25000
+  },
+  {
+   "id": 144,
+   "name": "Danau 250K",
+   "parentLayerId": 140,
+   "defaultVisibility": true,
+   "subLayerIds": null,
+   "minScale": 0,
+   "maxScale": 100000
+  },
+  {
+   "id": 145,
+   "name": "Empang",
+   "parentLayerId": 121,
+   "defaultVisibility": true,
+   "subLayerIds": [
+    146,
+    147,
+    148,
+    149
+   ],
+   "minScale": 0,
+   "maxScale": 0
+  },
+  {
+   "id": 146,
+   "name": "Empang 10K",
+   "parentLayerId": 145,
+   "defaultVisibility": true,
+   "subLayerIds": null,
+   "minScale": 10000,
+   "maxScale": 0
+  },
+  {
+   "id": 147,
+   "name": "Empang 25K",
+   "parentLayerId": 145,
+   "defaultVisibility": true,
+   "subLayerIds": null,
+   "minScale": 24999,
+   "maxScale": 0
+  },
+  {
+   "id": 148,
+   "name": "Empang 50K",
+   "parentLayerId": 145,
+   "defaultVisibility": true,
+   "subLayerIds": null,
+   "minScale": 99999,
+   "maxScale": 25000
+  },
+  {
+   "id": 149,
+   "name": "Empang 250K",
+   "parentLayerId": 145,
+   "defaultVisibility": true,
+   "subLayerIds": null,
+   "minScale": 0,
+   "maxScale": 100000
+  },
+  {
+   "id": 150,
+   "name": "Rawa",
+   "parentLayerId": 121,
+   "defaultVisibility": true,
+   "subLayerIds": [
+    151,
+    152,
+    153,
+    154
+   ],
+   "minScale": 0,
+   "maxScale": 0
+  },
+  {
+   "id": 151,
+   "name": "Rawa 10K",
+   "parentLayerId": 150,
+   "defaultVisibility": true,
+   "subLayerIds": null,
+   "minScale": 10000,
+   "maxScale": 0
+  },
+  {
+   "id": 152,
+   "name": "Rawa 25K",
+   "parentLayerId": 150,
+   "defaultVisibility": true,
+   "subLayerIds": null,
+   "minScale": 24999,
+   "maxScale": 0
+  },
+  {
+   "id": 153,
+   "name": "Rawa 50K",
+   "parentLayerId": 150,
+   "defaultVisibility": true,
+   "subLayerIds": null,
+   "minScale": 99999,
+   "maxScale": 25000
+  },
+  {
+   "id": 154,
+   "name": "Rawa 250K",
+   "parentLayerId": 150,
+   "defaultVisibility": true,
+   "subLayerIds": null,
+   "minScale": 0,
+   "maxScale": 100000
+  },
+  {
+   "id": 155,
+   "name": "Tambak",
+   "parentLayerId": 121,
+   "defaultVisibility": true,
+   "subLayerIds": [
+    156,
+    157,
+    158,
+    159
+   ],
+   "minScale": 0,
+   "maxScale": 0
+  },
+  {
+   "id": 156,
+   "name": "Tambak 10K",
+   "parentLayerId": 155,
+   "defaultVisibility": true,
+   "subLayerIds": null,
+   "minScale": 10000,
+   "maxScale": 0
+  },
+  {
+   "id": 157,
+   "name": "Tambak 25K",
+   "parentLayerId": 155,
+   "defaultVisibility": true,
+   "subLayerIds": null,
+   "minScale": 24999,
+   "maxScale": 0
+  },
+  {
+   "id": 158,
+   "name": "Tambak 50K",
+   "parentLayerId": 155,
+   "defaultVisibility": true,
+   "subLayerIds": null,
+   "minScale": 99999,
+   "maxScale": 25000
+  },
+  {
+   "id": 159,
+   "name": "Tambak",
+   "parentLayerId": 155,
+   "defaultVisibility": true,
+   "subLayerIds": null,
+   "minScale": 0,
+   "maxScale": 100000
+  },
+  {
+   "id": 160,
+   "name": "Waduk",
+   "parentLayerId": 121,
+   "defaultVisibility": true,
+   "subLayerIds": [
+    161,
+    162
+   ],
+   "minScale": 0,
+   "maxScale": 0
+  },
+  {
+   "id": 161,
+   "name": "Waduk 25K",
+   "parentLayerId": 160,
+   "defaultVisibility": true,
+   "subLayerIds": null,
+   "minScale": 1000000,
+   "maxScale": 0
+  },
+  {
+   "id": 162,
+   "name": "Waduk 50K",
+   "parentLayerId": 160,
+   "defaultVisibility": true,
+   "subLayerIds": null,
+   "minScale": 3000000,
+   "maxScale": 0
+  },
+  {
+   "id": 163,
+   "name": "LINGKUNGAN TERBANGUN",
+   "parentLayerId": -1,
+   "defaultVisibility": true,
+   "subLayerIds": [
+    164,
+    169
+   ],
+   "minScale": 0,
+   "maxScale": 0
+  },
+  {
+   "id": 164,
+   "name": "Permukiman",
+   "parentLayerId": 163,
+   "defaultVisibility": true,
+   "subLayerIds": [
+    165,
+    166,
+    167,
+    168
+   ],
+   "minScale": 0,
+   "maxScale": 0
+  },
+  {
+   "id": 165,
+   "name": "Tempat tinggal 25K",
+   "parentLayerId": 164,
+   "defaultVisibility": true,
+   "subLayerIds": null,
+   "minScale": 24999,
+   "maxScale": 0
+  },
+  {
+   "id": 166,
+   "name": "Permukiman 25K",
+   "parentLayerId": 164,
+   "defaultVisibility": true,
+   "subLayerIds": null,
+   "minScale": 24999,
+   "maxScale": 0
+  },
+  {
+   "id": 167,
+   "name": "Permukiman 50K",
+   "parentLayerId": 164,
+   "defaultVisibility": true,
+   "subLayerIds": null,
+   "minScale": 99999,
+   "maxScale": 25000
+  },
+  {
+   "id": 168,
+   "name": "Permukiman Penduduk",
+   "parentLayerId": 164,
+   "defaultVisibility": true,
+   "subLayerIds": null,
+   "minScale": 0,
+   "maxScale": 100000
+  },
+  {
+   "id": 169,
+   "name": "Bangunan",
+   "parentLayerId": 163,
+   "defaultVisibility": true,
+   "subLayerIds": [
+    170,
+    171
+   ],
+   "minScale": 0,
+   "maxScale": 0
+  },
+  {
+   "id": 170,
+   "name": "Bangunan 25K",
+   "parentLayerId": 169,
+   "defaultVisibility": true,
+   "subLayerIds": null,
+   "minScale": 24999,
+   "maxScale": 0
+  },
+  {
+   "id": 171,
+   "name": "Bangunan 50K",
+   "parentLayerId": 169,
+   "defaultVisibility": true,
+   "subLayerIds": null,
+   "minScale": 99999,
+   "maxScale": 25000
+  },
+  {
+   "id": 172,
+   "name": "VEGETASI",
+   "parentLayerId": -1,
+   "defaultVisibility": true,
+   "subLayerIds": [
+    173,
+    177,
+    181,
+    185,
+    187,
+    189,
+    192,
+    196,
+    199,
+    202
+   ],
+   "minScale": 0,
+   "maxScale": 0
+  },
+  {
+   "id": 173,
+   "name": "Perkebunan",
+   "parentLayerId": 172,
+   "defaultVisibility": true,
+   "subLayerIds": [
+    174,
+    175,
+    176
+   ],
+   "minScale": 0,
+   "maxScale": 0
+  },
+  {
+   "id": 174,
+   "name": "Perkebunan 25K",
+   "parentLayerId": 173,
+   "defaultVisibility": true,
+   "subLayerIds": null,
+   "minScale": 24999,
+   "maxScale": 0
+  },
+  {
+   "id": 175,
+   "name": "Perkebunan 50K",
+   "parentLayerId": 173,
+   "defaultVisibility": true,
+   "subLayerIds": null,
+   "minScale": 99999,
+   "maxScale": 25000
+  },
+  {
+   "id": 176,
+   "name": "Perkebunan 250K",
+   "parentLayerId": 173,
+   "defaultVisibility": true,
+   "subLayerIds": null,
+   "minScale": 0,
+   "maxScale": 100000
+  },
+  {
+   "id": 177,
+   "name": "Agrikultur Ladang",
+   "parentLayerId": 172,
+   "defaultVisibility": true,
+   "subLayerIds": [
+    178,
+    179,
+    180
+   ],
+   "minScale": 0,
+   "maxScale": 0
+  },
+  {
+   "id": 178,
+   "name": "Agrikultur Ladang 25K",
+   "parentLayerId": 177,
+   "defaultVisibility": true,
+   "subLayerIds": null,
+   "minScale": 24999,
+   "maxScale": 0
+  },
+  {
+   "id": 179,
+   "name": "Agrikultur Ladang 50K",
+   "parentLayerId": 177,
+   "defaultVisibility": true,
+   "subLayerIds": null,
+   "minScale": 99999,
+   "maxScale": 25000
+  },
+  {
+   "id": 180,
+   "name": "Agrikultur Ladang 250K",
+   "parentLayerId": 177,
+   "defaultVisibility": true,
+   "subLayerIds": null,
+   "minScale": 0,
+   "maxScale": 100000
+  },
+  {
+   "id": 181,
+   "name": "Sawah",
+   "parentLayerId": 172,
+   "defaultVisibility": true,
+   "subLayerIds": [
+    182,
+    183,
+    184
+   ],
+   "minScale": 0,
+   "maxScale": 0
+  },
+  {
+   "id": 182,
+   "name": "Sawah 25K",
+   "parentLayerId": 181,
+   "defaultVisibility": true,
+   "subLayerIds": null,
+   "minScale": 24999,
+   "maxScale": 0
+  },
+  {
+   "id": 183,
+   "name": "Sawah 50K",
+   "parentLayerId": 181,
+   "defaultVisibility": true,
+   "subLayerIds": null,
+   "minScale": 99999,
+   "maxScale": 25000
+  },
+  {
+   "id": 184,
+   "name": "Sawah 250K",
+   "parentLayerId": 181,
+   "defaultVisibility": true,
+   "subLayerIds": null,
+   "minScale": 0,
+   "maxScale": 100000
+  },
+  {
+   "id": 185,
+   "name": "Non Agrikultur Lahan Basah",
+   "parentLayerId": 172,
+   "defaultVisibility": true,
+   "subLayerIds": [
+    186
+   ],
+   "minScale": 0,
+   "maxScale": 0
+  },
+  {
+   "id": 186,
+   "name": "Non Agrikultur Lahan Basah_25K",
+   "parentLayerId": 185,
+   "defaultVisibility": true,
+   "subLayerIds": null,
+   "minScale": 24999,
+   "maxScale": 0
+  },
+  {
+   "id": 187,
+   "name": "Non Agrikultur Rumput Rawa",
+   "parentLayerId": 172,
+   "defaultVisibility": true,
+   "subLayerIds": [
+    188
+   ],
+   "minScale": 0,
+   "maxScale": 0
+  },
+  {
+   "id": 188,
+   "name": "Non Agrikultur Rumput Rawa_25K",
+   "parentLayerId": 187,
+   "defaultVisibility": true,
+   "subLayerIds": null,
+   "minScale": 24999,
+   "maxScale": 0
+  },
+  {
+   "id": 189,
+   "name": "Non Agrikultur Hutan Lahan Basah",
+   "parentLayerId": 172,
+   "defaultVisibility": true,
+   "subLayerIds": [
+    190,
+    191
+   ],
+   "minScale": 0,
+   "maxScale": 0
+  },
+  {
+   "id": 190,
+   "name": "Non Agrikultur Hutan Lahan Basah 25K",
+   "parentLayerId": 189,
+   "defaultVisibility": true,
+   "subLayerIds": null,
+   "minScale": 24999,
+   "maxScale": 0
+  },
+  {
+   "id": 191,
+   "name": "Non Agrikultur Hutan Lahan Basah 50K",
+   "parentLayerId": 189,
+   "defaultVisibility": true,
+   "subLayerIds": null,
+   "minScale": 99999,
+   "maxScale": 25000
+  },
+  {
+   "id": 192,
+   "name": "Non Agrikultur Hutan Lahan Kering",
+   "parentLayerId": 172,
+   "defaultVisibility": true,
+   "subLayerIds": [
+    193,
+    194,
+    195
+   ],
+   "minScale": 0,
+   "maxScale": 0
+  },
+  {
+   "id": 193,
+   "name": "Non Agrikultur Hutan Lahan Kering 25K",
+   "parentLayerId": 192,
+   "defaultVisibility": true,
+   "subLayerIds": null,
+   "minScale": 24999,
+   "maxScale": 0
+  },
+  {
+   "id": 194,
+   "name": "Non Agrikultur Hutan Lahan Kering 50K",
+   "parentLayerId": 192,
+   "defaultVisibility": true,
+   "subLayerIds": null,
+   "minScale": 99999,
+   "maxScale": 25000
+  },
+  {
+   "id": 195,
+   "name": "Non Agrikultur Hutan Lahan Kering 250K",
+   "parentLayerId": 192,
+   "defaultVisibility": true,
+   "subLayerIds": null,
+   "minScale": 0,
+   "maxScale": 100000
+  },
+  {
+   "id": 196,
+   "name": "Non Agrikultur Lahan Kering",
+   "parentLayerId": 172,
+   "defaultVisibility": true,
+   "subLayerIds": [
+    197,
+    198
+   ],
+   "minScale": 0,
+   "maxScale": 0
+  },
+  {
+   "id": 197,
+   "name": "Non Agrikultur Lahan Kering 25K",
+   "parentLayerId": 196,
+   "defaultVisibility": true,
+   "subLayerIds": null,
+   "minScale": 100000,
+   "maxScale": 0
+  },
+  {
+   "id": 198,
+   "name": "Non Agrikultur Lahan Kering 50K",
+   "parentLayerId": 196,
+   "defaultVisibility": true,
+   "subLayerIds": null,
+   "minScale": 99999,
+   "maxScale": 25000
+  },
+  {
+   "id": 199,
+   "name": "Non Agrikultur Alang-alang Sabana dan Padang",
+   "parentLayerId": 172,
+   "defaultVisibility": true,
+   "subLayerIds": [
+    200,
+    201
+   ],
+   "minScale": 0,
+   "maxScale": 0
+  },
+  {
+   "id": 200,
+   "name": "Non Agrikultur Alang-alang Sabana dan Padang 25K",
+   "parentLayerId": 199,
+   "defaultVisibility": true,
+   "subLayerIds": null,
+   "minScale": 24999,
+   "maxScale": 0
+  },
+  {
+   "id": 201,
+   "name": "Non Agrikultur Alang-alang Sabana dan Padang 50K",
+   "parentLayerId": 199,
+   "defaultVisibility": true,
+   "subLayerIds": null,
+   "minScale": 99999,
+   "maxScale": 25000
+  },
+  {
+   "id": 202,
+   "name": "Non Agrikultur Semak Belukar",
+   "parentLayerId": 172,
+   "defaultVisibility": true,
+   "subLayerIds": [
+    203,
+    204,
+    205
+   ],
+   "minScale": 0,
+   "maxScale": 0
+  },
+  {
+   "id": 203,
+   "name": "Non Agrikultur Semak Belukar 25K",
+   "parentLayerId": 202,
+   "defaultVisibility": true,
+   "subLayerIds": null,
+   "minScale": 24999,
+   "maxScale": 0
+  },
+  {
+   "id": 204,
+   "name": "Non Agrikultur Semak Belukar 50K",
+   "parentLayerId": 202,
+   "defaultVisibility": true,
+   "subLayerIds": null,
+   "minScale": 99999,
+   "maxScale": 25000
+  },
+  {
+   "id": 205,
+   "name": "Non Agrikultur Semak Belukar 250K",
+   "parentLayerId": 202,
+   "defaultVisibility": true,
+   "subLayerIds": null,
+   "minScale": 0,
+   "maxScale": 100000
+  },
+  {
+   "id": 206,
+   "name": "BENTANG ALAM",
+   "parentLayerId": -1,
+   "defaultVisibility": true,
+   "subLayerIds": null,
+   "minScale": 0,
+   "maxScale": 100000
+  }
+ ],
+ "tables": [],
+ "spatialReference": {
+  "wkid": 4326,
+  "latestWkid": 4326
+ },
+ "singleFusedMapCache": true,
+ "tileInfo": {
+  "rows": 256,
+  "cols": 256,
+  "dpi": 96,
+  "format": "PNG8",
+  "compressionQuality": 0,
+  "origin": {
+   "x": -400,
+   "y": 400
+  },
+  "spatialReference": {
+   "wkid": 4326,
+   "latestWkid": 4326
+  },
+  "lods": [
+   {
+    "level": 0,
+    "resolution": 0.07614275218656896,
+    "scale": 32000000
+   },
+   {
+    "level": 1,
+    "resolution": 0.0356919150874542,
+    "scale": 15000000
+   },
+   {
+    "level": 2,
+    "resolution": 0.023794610058302804,
+    "scale": 10000000
+   },
+   {
+    "level": 3,
+    "resolution": 0.0178459575437271,
+    "scale": 7500000
+   },
+   {
+    "level": 4,
+    "resolution": 0.011897305029151402,
+    "scale": 5000000
+   },
+   {
+    "level": 5,
+    "resolution": 0.00237946100583028,
+    "scale": 1000000
+   },
+   {
+    "level": 6,
+    "resolution": 0.0017845957543727103,
+    "scale": 750000
+   },
+   {
+    "level": 7,
+    "resolution": 0.00118973050291514,
+    "scale": 500000
+   },
+   {
+    "level": 8,
+    "resolution": 5.9486525145757E-4,
+    "scale": 250000
+   },
+   {
+    "level": 9,
+    "resolution": 2.3794610058302802E-4,
+    "scale": 100000
+   },
+   {
+    "level": 10,
+    "resolution": 1.1897305029151401E-4,
+    "scale": 50000
+   },
+   {
+    "level": 11,
+    "resolution": 5.9486525145757005E-5,
+    "scale": 25000
+   },
+   {
+    "level": 12,
+    "resolution": 2.3794610058302804E-5,
+    "scale": 10000
+   }
+  ]
+ },
+ "initialExtent": {
+  "xmin": 85.26286318659311,
+  "ymin": -4.339035840163825,
+  "xmax": 134.1220217974873,
+  "ymax": 17.97206183506338,
+  "spatialReference": {
+   "cs": "gcs",
+   "wkid": 4326
+  }
+ },
+ "fullExtent": {
+  "xmin": 89.99958333333333,
+  "ymin": -1731289.190299999,
+  "xmax": 1.6086740821599998E7,
+  "ymax": 1424754.7584999986,
+  "spatialReference": {
+   "cs": "gcs",
+   "wkid": 4326
+  }
+ },
+ "minScale": 32000000,
+ "maxScale": 10000,
+ "units": "esriDecimalDegrees",
+ "supportedImageFormatTypes": "PNG32,PNG24,PNG,JPG,DIB,TIFF,EMF,PS,PDF,GIF,SVG,SVGZ,BMP",
+ "documentInfo": {
+  "Title": "",
+  "Author": "",
+  "Comments": "Peta RBI Skala 1:10.000, 1:25.000, 1:50.000 dan 1:250.000",
+  "Subject": "Peta ini bersumber dari data RBI Skala 1:25.000, 1:50.000 dan 1:250.000",
+  "Category": "",
+  "AntialiasingMode": "None",
+  "TextAntialiasingMode": "Force",
+  "Keywords": "RBI,Rupabumi Indonesia,Peta Dasar,Basemap"
+ },
+ "capabilities": "Map,Query,Data",
+ "supportedQueryFormats": "JSON, AMF",
+ "exportTilesAllowed": false,
+ "maxRecordCount": 1000,
+ "maxImageHeight": 4096,
+ "maxImageWidth": 4096,
+ "supportedExtensions": "WMSServer"
+}
